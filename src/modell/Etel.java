@@ -8,9 +8,8 @@ public class Etel {
     public Etel(String sor) {
 
         String[] separated = sor.split(";");
-        System.out.println(separated[0]);
-       System.out.println(separated[1]);
-
+        nev = separated[0];
+        ar = Integer.parseInt(separated[1]);
     }
 
     public String getNev() {

@@ -22,13 +22,13 @@ public class Main {
         Scanner myReader = new Scanner(file);
         int index = 0;
         while (myReader.hasNextLine()) {
-             String data = myReader.nextLine();
-            if (index > 0) {      
+            String data = myReader.nextLine();
+            if (index > 0) {
                 new Etel(data);
             } else {
-                
+
             }
-            index ++;
+            index++;
         }
         String[] etelek = {"Bab", "banán"};
         int[] etelek_ara = {1200, 1400};
