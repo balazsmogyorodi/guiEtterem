@@ -1,0 +1,4 @@
+etel;ar
+buger;1500
+pizza;1000
+gyros;1400
